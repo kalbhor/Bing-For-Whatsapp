@@ -24,7 +24,7 @@ def std_search(query, count='3'):
         key = 0
 
         for i in response["webPages"]["value"]:
-            links_dict[str(key)] = str(i['url'])
+            links_dict[str(key)] = str(i['displayUrl'])
             key = key + 1
 
         json_data = json.dumps(links_dict)
@@ -55,7 +55,7 @@ def img_search(query, count='3'):
         key = 0
 
         for i in response['value']:
-            links_dict[str(key)] = str(i['contentUrl'])
+            links_dict[str(key)] = str((i['contentUrl']))
             key = key + 1
 
         json_data = json.dumps(links_dict)
