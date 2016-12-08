@@ -10,7 +10,7 @@ import requests
 def std_search(query, count='3'):
     ''' Standard Bing Search, returns json '''
 
-    api_key = "dc271ed6bd4c4f44bb79399639d7d883"
+    api_key = "XXXXXXXXXXXXXXXXX"
     endpoint = "https://api.cognitive.microsoft.com/bing/v5.0/search"
     links_dict = {}
 
