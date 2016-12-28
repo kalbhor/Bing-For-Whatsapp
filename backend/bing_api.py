@@ -1,6 +1,8 @@
 '''
 Searches queries fetched from js through Bing's API
-returns json
+returns json.
+
+Useless, now that google released its new keyboard
 '''
 
 import json
